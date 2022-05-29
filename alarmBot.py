@@ -154,12 +154,3 @@ else:
     print('메시지를 성공적으로 보내지 못했습니다. 오류메시지 : ' + str(response.content))
 
 
-# 친구에게 보내기 기능
-# url = "https://kapi.kakao.com/v1/api/talk/friends"
-# header = {"Authorization": 'Bearer ' + tokens['access_token']}
-# print(header)
-
-# result = json.loads(requests.get(url, headers=header).text)
-# friends_list = result.get("elements")
-
-# print(friends_list)
